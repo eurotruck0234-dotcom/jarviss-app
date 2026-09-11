@@ -1,0 +1,12 @@
+<resources>
+    <color name="jarvis_bg">#0A0A0F</color>
+    <color name="jarvis_panel">#14100F</color>
+    <color name="jarvis_red">#E62429</color>
+    <color name="jarvis_red_dark">#8C1518</color>
+    <color name="jarvis_gold">#D4AF37</color>
+    <color name="jarvis_gold_dim">#8A7226</color>
+    <color name="jarvis_text">#F5E6C8</color>
+    <color name="jarvis_text_dim">#B8A56A</color>
+    <color name="jarvis_bubble_user">#1C1512</color>
+    <color name="jarvis_bubble_ai">#1A0E0E</color>
+</resources>
