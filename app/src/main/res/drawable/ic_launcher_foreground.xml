@@ -4,44 +4,10 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-
-    <!-- Outer segmented ring (light blue-grey) -->
-    <path
-        android:pathData="M54,20 A34,34 0 1,1 53.9,20"
-        android:strokeColor="#9FD1E8"
-        android:strokeWidth="3"
-        android:fillColor="#00000000" />
-
-    <!-- Middle ring -->
-    <path
-        android:pathData="M54,30 A24,24 0 1,1 53.9,30"
-        android:strokeColor="#CFE8F5"
-        android:strokeWidth="2.5"
-        android:fillColor="#00000000" />
-
-    <!-- Inner dark ring -->
-    <circle
-        android:cx="54"
-        android:cy="54"
-        android:radius="15"
-        android:fillColor="#0A0A0F"
-        android:strokeColor="#9FD1E8"
-        android:strokeWidth="2" />
-
-    <!-- Red core -->
-    <circle
-        android:cx="54"
-        android:cy="54"
-        android:radius="7"
-        android:fillColor="#E62429" />
-
-    <!-- Small top/bottom tick marks -->
-    <path
-        android:pathData="M54,38 L54,44"
-        android:strokeColor="#CFE8F5"
-        android:strokeWidth="2" />
-    <path
-        android:pathData="M54,64 L54,70"
-        android:strokeColor="#CFE8F5"
-        android:strokeWidth="2" />
+    <path android:pathData="M88,54 A34,34 0 1,1 87.9,54 A34,34 0 1,1 88,54 Z" android:strokeColor="#9FD1E8" android:strokeWidth="3" android:fillColor="#00000000" />
+    <path android:pathData="M78,54 A24,24 0 1,1 77.9,54 A24,24 0 1,1 78,54 Z" android:strokeColor="#CFE8F5" android:strokeWidth="2.5" android:fillColor="#00000000" />
+    <path android:pathData="M69,54 A15,15 0 1,1 68.9,54 A15,15 0 1,1 69,54 Z" android:strokeColor="#9FD1E8" android:strokeWidth="2" android:fillColor="#0A0A0F" />
+    <path android:pathData="M61,54 A7,7 0 1,1 60.9,54 A7,7 0 1,1 61,54 Z" android:fillColor="#E62429" />
+    <path android:pathData="M54,38 L54,44" android:strokeColor="#CFE8F5" android:strokeWidth="2" />
+    <path android:pathData="M54,64 L54,70" android:strokeColor="#CFE8F5" android:strokeWidth="2" />
 </vector>
