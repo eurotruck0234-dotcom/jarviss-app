@@ -15,7 +15,7 @@ class OllamaClient(private val context: Context) {
         .writeTimeout(60, TimeUnit.SECONDS)
         .build()
 
-    private val JSON = MediaType.parse("application/json; charset=utf-8")
+    private val JSON = "application/json; charset=utf-8".toMediaType()
 
     /**
      * Picks which local model should answer, based on keywords in the user's message.
