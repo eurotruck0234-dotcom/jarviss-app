@@ -38,7 +38,7 @@ class SearchClient {
                 .build()
 
             val response = client.newCall(request).execute()
-            val html = response.body()?.string() ?: return ""
+            val html = response.body?.string() ?: return ""
 
             val titles = mutableListOf<String>()
             val snippets = mutableListOf<String>()

@@ -87,9 +87,9 @@ class OllamaClient(private val context: Context) {
 
             override fun onResponse(call: Call, response: Response) {
                 try {
-                    val bodyStr = response.body()?.string()
+                    val bodyStr = response.body?.string()
                     if (!response.isSuccessful || bodyStr == null) {
-                        callback(null, "Sunucu hatası: ${response.code()}")
+                        callback(null, "Sunucu hatası: ${response.code}")
                         return
                     }
                     val json = JSONObject(bodyStr)
